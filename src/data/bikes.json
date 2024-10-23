@@ -22,114 +22,159 @@
     "frames": [
         {
             "id": 1,
-            "type": "road",
+            "type": "Aethos Sw",
             "material": "carbon",
             "weight": 1.2,
-            "price": 1000,
+            "price": 4500,
             "description": "Lightweight frame for road bikes, perfect for racing."
         },
         {
             "id": 2,
-            "type": "road",
-            "material": "aluminum",
+            "type": "Stumpjumper",
+            "material": "aluminium",
             "weight": 1.4,
-            "price": 900,
+            "price": 3115,
             "description": "Aluminum frame for road bikes, offering a great balance of weight and durability."
         },
         {
             "id": 3,
-            "type": "mountain",
-            "material": "aluminum",
+            "type": "S-Works",
+            "material": "carbon",
             "weight": 1.8,
             "price": 850,
             "description": "Durable aluminum frame for mountain bikes, designed to withstand rough terrain."
         },
         {
             "id": 4,
-            "type": "electric",
+            "type": "Stiker",
             "material": "carbon",
             "weight": 2.5,
-            "price": 1500,
-            "description": "Reinforced frame for electric bikes, providing strength and stability."
+            "price": 2600,
+            "description": "Durable carbon frame for mountain bikes, designed to withstand rough terrain."
         },
         {
             "id": 5,
-            "type": "mountain",
+            "type": " Spark Rc",
             "material": "steel",
             "weight": 2.0,
-            "price": 700,
+            "price": 7000,
             "description": "Steel frame for mountain bikes, known for its strength and shock absorption."
+        },
+        {
+            "id": 6,
+            "type": "Status 160",
+            "material": "carbon",
+            "weight": 2.5,
+            "price": 1500,
+            "description": "Reinforced frame for MTB, providing strength and stability."
+        },
+        {
+            "id": 7,
+            "type": "Tero 3.0",
+            "material": "steel",
+            "weight": 2.0,
+            "price": 1700,
+            "description": "Reinforced frame for electric bikes, providing strength and stability"
+        },
+        {
+            "id": 8,
+            "type": " Conor EMtb",
+            "material": "steel",
+            "weight": 2.0,
+            "price": 1240,
+            "description": "Steel frame forelectric mountain bikes, known for its strength and shock absorption."
         }
     ],
     "wheels": [
         {
             "id": 1,
-            "type": "lightweight",
-            "material": "carbon",
-            "price": 400,
-            "description": "Carbon wheels designed for maximum speed and minimal weight."
+            "type": "maxxis",
+            "material": "HYPR",
+            "price": 95,
+            "description": "HYPR wheels designed for maximum speed and minimal weight.",
+            "size": "700x25C"
         },
         {
             "id": 2,
-            "type": "reinforced",
-            "material": "aluminum",
-            "price": 350,
-            "description": "Aluminum wheels that offer durability and strength for road biking."
+            "type": "GP 5000",
+            "material": "Inner tube",
+            "price": 45,
+            "description": "Wheels that offer durability and strength.",
+            "size": "25-26mm"
         },
         {
             "id": 3,
-            "type": "mountain",
-            "material": "aluminum",
-            "price": 300,
-            "description": "Aluminum wheels built to handle rugged mountain trails."
+            "type": "Mazza",
+            "material": "Tubeless",
+            "price": 120,
+            "description": "Wheels built to handle rugged mountain trails.",
+            "size": "29x2.4"
         },
         {
             "id": 4,
-            "type": "electric",
-            "material": "carbon",
-            "price": 500,
-            "description": "Lightweight carbon wheels designed specifically for electric bikes."
+            "type": "Rekon",
+            "material": "Tubeless Ready",
+            "price": 105,
+            "description": "Wheels designed specifically for electric bikes.",
+            "size": "700x25C"
         },
         {
             "id": 5,
-            "type": "all-terrain",
-            "material": "steel",
-            "price": 450,
-            "description": "Steel wheels that provide strength and versatility for various terrains."
+            "type": "Tterrain",
+            "material": "Tubeless Ready",
+            "price": 88,
+            "description": "Steel wheels that provide strength and versatility for various terrains.",
+            "size": "700x25C"
+        },
+        {
+            "id": 6,
+            "type": "M-Rekon Pro",
+            "material": "Tubeless Ready",
+            "price": 111,
+            "description": "Wheels designed specifically for electric bikes.",
+            "size": "700x25C"
+        },
+        {
+            "id": 7,
+            "type": "Makal",
+            "material": "Tubeless",
+            "price": 132,
+            "description": "Steel wheels that provide strength and versatility for various terrains.",
+            "size": "700x25C"
         }
     ],
     "handlebars": [
         {
             "id": 1,
-            "type": "aerodynamic",
-            "material": "carbon",
-            "price": 150,
-            "description": "Carbon aerodynamic handlebars designed for racing and speed."
+            "type": "LT COMPACT",
+            "material": "aluminum",
+            "price": 45,
+            "description": "Aluminum aerodynamic handlebars designed for racing and speed."
         },
         {
             "id": 2,
-            "type": "ergonomic",
+            "type": "xlc TRI",
             "material": "aluminum",
             "price": 120,
             "description": "Aluminum ergonomic handlebars providing comfort for long rides."
         },
         {
             "id": 3,
-            "type": "straight handlebar",
-            "material": "aluminum",
-            "price": 130,
+            "type": "race face",
+            "material": "carbon",
+            "price": 115,
             "description": "Straight handlebars for a relaxed riding position."
         },
         {
             "id": 4,
-            "type": "electric",
-            "material": "carbon",
+            "type": "progress",
+            "material": "UD Carbon",
             "price": 180,
             "description": "Carbon handlebars designed for electric bikes, combining strength and lightweight."
         },
         {
             "id": 5,
-            "type": "riser handlebar",
+            "type": "riser",
             "material": "aluminum",
             "price": 140,
             "description": "Aluminum riser handlebars for improved comfort and control on trails."
@@ -139,25 +184,25 @@
         {
             "id": 1,
             "type": "matte",
-            "price": 100,
+            "price": 89,
             "description": "Elegant matte finish, resistant to scratches."
         },
         {
             "id": 2,
             "type": "glossy",
-            "price": 150,
+            "price": 105,
             "description": "Modern glossy finish that shines and catches the eye."
         },
         {
             "id": 3,
             "type": "metallic",
-            "price": 180,
+            "price": 80,
             "description": "Metallic paint that offers a shiny, reflective finish."
         },
         {
             "id": 4,
             "type": "neon",
-            "price": 200,
+            "price": 120,
             "description": "Bright neon finish that stands out and adds a unique touch."
         }
     ],
@@ -209,34 +254,154 @@
     ],
     "bikeCompatibleComponents": [
         {
-            "bikeId": 3,
+            "bikeId": 1,
             "componentType": "frames",
             "componentId": 1
         },
         {
-            "bikeId": 3,
+            "bikeId": 1,
             "componentType": "frames",
             "componentId": 2
         },
         {
-            "bikeId": 3,
+            "bikeId": 1,
+            "componentType": "frames",
+            "componentId": 3
+        },
+        {
+            "bikeId": 1,
             "componentType": "wheels",
             "componentId": 1
         },
         {
-            "bikeId": 3,
+            "bikeId": 1,
             "componentType": "wheels",
             "componentId": 2
         },
         {
-            "bikeId": 3,
+            "bikeId": 1,
             "componentType": "handlebars",
             "componentId": 1
         },
         {
-            "bikeId": 3,
+            "bikeId": 1,
             "componentType": "handlebars",
             "componentId": 2
+        },
+        {
+            "bikeId": 1,
+            "componentType": "paints",
+            "componentId": 1
+        },
+        {
+            "bikeId": 1,
+            "componentType": "paints",
+            "componentId": 2
+        },
+        {
+            "bikeId": 1,
+            "componentType": "paints",
+            "componentId": 3
+        },
+        {
+            "bikeId": 1,
+            "componentType": "paints",
+            "componentId": 4
+        },
+        {
+            "bikeId": 2,
+            "componentType": "frames",
+            "componentId": 4
+        },
+        {
+            "bikeId": 2,
+            "componentType": "frames",
+            "componentId": 5
+        },
+        {
+            "bikeId": 2,
+            "componentType": "frames",
+            "componentId": 6
+        },
+        {
+            "bikeId": 2,
+            "componentType": "wheels",
+            "componentId": 3
+        },
+        {
+            "bikeId": 2,
+            "componentType": "wheels",
+            "componentId": 4
+        },
+        {
+            "bikeId": 2,
+            "componentType": "wheels",
+            "componentId": 5
+        },
+        {
+            "bikeId": 2,
+            "componentType": "wheels",
+            "componentId": 6
+        },
+        {
+            "bikeId": 2,
+            "componentType": "handlebars",
+            "componentId": 3
+        },
+        {
+            "bikeId": 2,
+            "componentType": "handlebars",
+            "componentId": 4
+        },
+        {
+            "bikeId": 2,
+            "componentType": "paints",
+            "componentId": 1
+        },
+        {
+            "bikeId": 2,
+            "componentType": "paints",
+            "componentId": 2
+        },
+        {
+            "bikeId": 2,
+            "componentType": "paints",
+            "componentId": 3
+        },
+        {
+            "bikeId": 2,
+            "componentType": "paints",
+            "componentId": 4
+        },
+        {
+            "bikeId": 3,
+            "componentType": "frames",
+            "componentId": 7
+        },
+        {
+            "bikeId": 3,
+            "componentType": "frames",
+            "componentId": 8
+        },
+        {
+            "bikeId": 3,
+            "componentType": "wheels",
+            "componentId": 6
+        },
+        {
+            "bikeId": 3,
+            "componentType": "wheels",
+            "componentId": 7
+        },
+        {
+            "bikeId": 3,
+            "componentType": "handlebars",
+            "componentId": 5
+        },
+        {
+            "bikeId": 3,
+            "componentType": "handlebars",
+            "componentId": 3
         },
         {
             "bikeId": 3,
@@ -300,44 +465,158 @@
         {
             "componentType": "frames",
             "componentId": 1,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 2,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 2,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 2,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 2,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 3
+        },
+        {
+            "componentType": "frames",
+            "componentId": 4,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 3
+        },
+        {
+            "componentType": "frames",
+            "componentId": 4,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 4
+        },
+        {
+            "componentType": "frames",
+            "componentId": 4,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 5
+        },
+        {
+            "componentType": "frames",
+            "componentId": 4,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 6
+        },
+        {
+            "componentType": "frames",
+            "componentId": 4,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 4,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 6,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 6
+        },
+        {
+            "componentType": "frames",
+            "componentId": 6,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 7
+        },
+        {
+            "componentType": "frames",
+            "componentId": 6,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 3
+        },
+        {
+            "componentType": "frames",
+            "componentId": 7,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 7,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 7,
             "compatibleWithComponentType": "handlebars",
             "compatibleWithComponentId": 1
         },
         {
             "componentType": "frames",
-            "componentId": 1,
+            "componentId": 7,
             "compatibleWithComponentType": "handlebars",
             "compatibleWithComponentId": 2
         },
         {
             "componentType": "frames",
-            "componentId": 1,
+            "componentId": 7,
             "compatibleWithComponentType": "motors",
             "compatibleWithComponentId": 1
         },
         {
             "componentType": "frames",
-            "componentId": 1,
+            "componentId": 7,
             "compatibleWithComponentType": "motors",
             "compatibleWithComponentId": 2
         },
         {
             "componentType": "frames",
-            "componentId": 1,
+            "componentId": 7,
             "compatibleWithComponentType": "batteries",
             "compatibleWithComponentId": 1
         },
         {
             "componentType": "frames",
-            "componentId": 1,
+            "componentId": 7,
             "compatibleWithComponentType": "batteries",
             "compatibleWithComponentId": 2
         },
         {
-            "componentType": "batteries",
-            "componentId": 1,
-            "compatibleWithComponentType": "motors",
+            "componentType": "frames",
+            "componentId": 7,
+            "compatibleWithComponentType": "paints",
             "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 7,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 8,
+            "compatibleWithComponentType": "batteries",
+            "compatibleWithComponentId": 3
         },
         {
             "componentType": "wheels",
@@ -346,16 +625,76 @@
             "compatibleWithComponentId": 1
         },
         {
-            "componentType": "frames",
+            "componentType": "wheels",
             "componentId": 1,
-            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 2,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 3,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 3
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 4,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 4
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 5,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 6,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 5
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 6,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 4
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 7,
+            "compatibleWithComponentType": "handlebars",
             "compatibleWithComponentId": 1
         },
         {
-            "componentType": "frames",
+            "componentType": "batteries",
             "componentId": 1,
-            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentType": "motors",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "batteries",
+            "componentId": 1,
+            "compatibleWithComponentType": "motors",
             "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "batteries",
+            "componentId": 2,
+            "compatibleWithComponentType": "motors",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "batteries",
+            "componentId": 3,
+            "compatibleWithComponentType": "motors",
+            "compatibleWithComponentId": 3
         }
     ]
 }
