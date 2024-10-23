@@ -1,0 +1,361 @@
+{
+    "bikeTypes": [
+        {
+            "id": 1,
+            "type": "Road",
+            "description": "Bikes designed for speed on paved roads.",
+            "image": "/bike-neon.jpg"
+        },
+        {
+            "id": 2,
+            "type": "Mountain",
+            "description": "Bikes designed for rough terrain and trails.",
+            "image": "/bike-neon.jpg"
+        },
+        {
+            "id": 3,
+            "type": "Electric",
+            "description": "Electric bikes with pedal assistance.",
+            "image": "/bike-neon.jpg"
+        }
+    ],
+    "frames": [
+        {
+            "id": 1,
+            "type": "road",
+            "material": "carbon",
+            "weight": 1.2,
+            "price": 1000,
+            "description": "Lightweight frame for road bikes, perfect for racing."
+        },
+        {
+            "id": 2,
+            "type": "road",
+            "material": "aluminum",
+            "weight": 1.4,
+            "price": 900,
+            "description": "Aluminum frame for road bikes, offering a great balance of weight and durability."
+        },
+        {
+            "id": 3,
+            "type": "mountain",
+            "material": "aluminum",
+            "weight": 1.8,
+            "price": 850,
+            "description": "Durable aluminum frame for mountain bikes, designed to withstand rough terrain."
+        },
+        {
+            "id": 4,
+            "type": "electric",
+            "material": "carbon",
+            "weight": 2.5,
+            "price": 1500,
+            "description": "Reinforced frame for electric bikes, providing strength and stability."
+        },
+        {
+            "id": 5,
+            "type": "mountain",
+            "material": "steel",
+            "weight": 2.0,
+            "price": 700,
+            "description": "Steel frame for mountain bikes, known for its strength and shock absorption."
+        }
+    ],
+    "wheels": [
+        {
+            "id": 1,
+            "type": "lightweight",
+            "material": "carbon",
+            "price": 400,
+            "description": "Carbon wheels designed for maximum speed and minimal weight."
+        },
+        {
+            "id": 2,
+            "type": "reinforced",
+            "material": "aluminum",
+            "price": 350,
+            "description": "Aluminum wheels that offer durability and strength for road biking."
+        },
+        {
+            "id": 3,
+            "type": "mountain",
+            "material": "aluminum",
+            "price": 300,
+            "description": "Aluminum wheels built to handle rugged mountain trails."
+        },
+        {
+            "id": 4,
+            "type": "electric",
+            "material": "carbon",
+            "price": 500,
+            "description": "Lightweight carbon wheels designed specifically for electric bikes."
+        },
+        {
+            "id": 5,
+            "type": "all-terrain",
+            "material": "steel",
+            "price": 450,
+            "description": "Steel wheels that provide strength and versatility for various terrains."
+        }
+    ],
+    "handlebars": [
+        {
+            "id": 1,
+            "type": "aerodynamic",
+            "material": "carbon",
+            "price": 150,
+            "description": "Carbon aerodynamic handlebars designed for racing and speed."
+        },
+        {
+            "id": 2,
+            "type": "ergonomic",
+            "material": "aluminum",
+            "price": 120,
+            "description": "Aluminum ergonomic handlebars providing comfort for long rides."
+        },
+        {
+            "id": 3,
+            "type": "straight handlebar",
+            "material": "aluminum",
+            "price": 130,
+            "description": "Straight handlebars for a relaxed riding position."
+        },
+        {
+            "id": 4,
+            "type": "electric",
+            "material": "carbon",
+            "price": 180,
+            "description": "Carbon handlebars designed for electric bikes, combining strength and lightweight."
+        },
+        {
+            "id": 5,
+            "type": "riser handlebar",
+            "material": "aluminum",
+            "price": 140,
+            "description": "Aluminum riser handlebars for improved comfort and control on trails."
+        }
+    ],
+    "paints": [
+        {
+            "id": 1,
+            "type": "matte",
+            "price": 100,
+            "description": "Elegant matte finish, resistant to scratches."
+        },
+        {
+            "id": 2,
+            "type": "glossy",
+            "price": 150,
+            "description": "Modern glossy finish that shines and catches the eye."
+        },
+        {
+            "id": 3,
+            "type": "metallic",
+            "price": 180,
+            "description": "Metallic paint that offers a shiny, reflective finish."
+        },
+        {
+            "id": 4,
+            "type": "neon",
+            "price": 200,
+            "description": "Bright neon finish that stands out and adds a unique touch."
+        }
+    ],
+    "batteries": [
+        {
+            "id": 1,
+            "type": "lithium-ion",
+            "capacity": "500Wh",
+            "price": 600,
+            "description": "High-capacity lithium-ion battery for extended rides."
+        },
+        {
+            "id": 2,
+            "type": "lithium-polymer",
+            "capacity": "700Wh",
+            "price": 700,
+            "description": "Advanced lithium-polymer battery with lighter weight and more energy."
+        },
+        {
+            "id": 3,
+            "type": "lithium-polymer",
+            "capacity": "700Wh",
+            "price": 700,
+            "description": "Advanced lithium-polymer battery with lighter weight and more energy."
+        }
+    ],
+    "motors": [
+        {
+            "id": 1,
+            "type": "rear motor",
+            "power": "250W",
+            "price": 800,
+            "description": "Efficient rear motor providing smooth acceleration."
+        },
+        {
+            "id": 2,
+            "type": "mid motor",
+            "power": "500W",
+            "price": 1200,
+            "description": "Powerful mid motor for optimal balance and performance."
+        },
+        {
+            "id": 3,
+            "type": "big motor",
+            "power": "500W",
+            "price": 1200,
+            "description": "Powerful mid motor for optimal balance and performance."
+        }
+    ],
+    "bikeCompatibleComponents": [
+        {
+            "bikeId": 3,
+            "componentType": "frames",
+            "componentId": 1
+        },
+        {
+            "bikeId": 3,
+            "componentType": "frames",
+            "componentId": 2
+        },
+        {
+            "bikeId": 3,
+            "componentType": "wheels",
+            "componentId": 1
+        },
+        {
+            "bikeId": 3,
+            "componentType": "wheels",
+            "componentId": 2
+        },
+        {
+            "bikeId": 3,
+            "componentType": "handlebars",
+            "componentId": 1
+        },
+        {
+            "bikeId": 3,
+            "componentType": "handlebars",
+            "componentId": 2
+        },
+        {
+            "bikeId": 3,
+            "componentType": "batteries",
+            "componentId": 1
+        },
+        {
+            "bikeId": 3,
+            "componentType": "batteries",
+            "componentId": 2
+        },
+        {
+            "bikeId": 3,
+            "componentType": "batteries",
+            "componentId": 3
+        },
+        {
+            "bikeId": 3,
+            "componentType": "motors",
+            "componentId": 1
+        },
+        {
+            "bikeId": 3,
+            "componentType": "motors",
+            "componentId": 2
+        },
+        {
+            "bikeId": 3,
+            "componentType": "motors",
+            "componentId": 3
+        },
+        {
+            "bikeId": 3,
+            "componentType": "paints",
+            "componentId": 1
+        },
+        {
+            "bikeId": 3,
+            "componentType": "paints",
+            "componentId": 2
+        },
+        {
+            "bikeId": 3,
+            "componentType": "paints",
+            "componentId": 3
+        }
+    ],
+    "componentCompatibility": [
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "wheels",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "motors",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "motors",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "batteries",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "batteries",
+            "compatibleWithComponentId": 2
+        },
+        {
+            "componentType": "batteries",
+            "componentId": 1,
+            "compatibleWithComponentType": "motors",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "wheels",
+            "componentId": 1,
+            "compatibleWithComponentType": "handlebars",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 1
+        },
+        {
+            "componentType": "frames",
+            "componentId": 1,
+            "compatibleWithComponentType": "paints",
+            "compatibleWithComponentId": 2
+        }
+    ]
+}

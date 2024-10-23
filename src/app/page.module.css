@@ -1,0 +1,95 @@
+.page {
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 80px;
+  gap: 64px;
+  font-family: var(--font-geist-sans);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+  text-align: center;
+}
+
+.logo {
+  font-size: 45px;
+  color: var(--main-color);
+}
+
+.lema :first-child {
+  text-align: left;
+}
+
+.lema :last-child {
+  text-align: right;
+}
+
+.ctas a {
+  height: 60px;
+  padding: 0 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  transition: 800ms ease all;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  position: relative;
+  outline: none;
+}
+
+a.primary:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+
+a.primary:before,
+a.primary:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: var(--main-color);
+  transition: 400ms ease all;
+}
+
+a.primary:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+a.primary:hover:before,
+a.primary:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 32px;
+    padding-bottom: 80px;
+  }
+
+  .ctas {
+    flex-direction: column;
+  }
+
+  .ctas a {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px;
+  }
+}

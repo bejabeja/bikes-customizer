@@ -1,0 +1,64 @@
+.shoppingCart {
+    position: sticky;
+    top: 0;
+    padding: 0 1rem;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-height: 500px;
+    max-height: 100%;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.shoppingCart h2 {
+    margin-bottom: 20px;
+}
+
+.shoppingCart ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.shoppingCart li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.shoppingCart li:last-child {
+    border-bottom: none;
+}
+
+.shoppingCart li div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.removeButton {
+    background: transparent;
+    border: none;
+    color: var(--main-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+    right: 0px;
+    align-self: center;
+    transition: all 0.5s ease;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+.removeButton:hover {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.total {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: right;
+}
